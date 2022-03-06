@@ -1,0 +1,128 @@
+body{
+	font-size: 16px;
+
+	background: #2F4F4F;
+}
+hr{
+  border-color: black;
+  border: 1px solid black;
+
+  margin: 0;
+}
+ul{
+  float: top;
+}
+/** HEADER **/
+.container{
+  margin: 0;
+}
+.container h1{
+  text-align: left;
+  position: relative;
+  float: left;
+  margin: 10px 15px 10px 0;
+  text-shadow: 2px 2px black;
+}
+.navbar-nav>li>a{
+  color: black;
+}
+
+.nav{
+  background-color: #2F4F4F;
+  text-align: center;
+  border: solid 2px black;
+}
+
+#header-nav{
+	position: relative;
+	padding: 0;
+	background: #008B8B;
+	border: 0;
+	color: white;
+
+}
+
+
+
+/** END HEADER **/
+#nav-list {
+  margin-top: 10px;
+}
+/** BOX **/
+#box {
+  border-radius: 8px;
+  border: 1px solid black;
+  background-color: #008B8B;
+  
+  height: auto;
+  margin-right: 15px;
+  margin-left: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-family: "Arial";
+  color: white;
+
+}
+#chk{
+
+  margin-top: 0%;
+  background-color: pink;
+  border: solid 1px;
+  border-color: black;
+  float: right;
+  width: 30%;
+  text-align: center;
+  color: black;
+  font-family: "Lucida Console";
+   font-weight: bold;
+
+}
+#beef{
+  margin-top: 0%;
+  background-color: red;
+  border: solid 1px;
+  border-color: black;
+  float: right;
+  width: 30%;
+  text-align: center;
+  color: white;
+ 
+
+}
+#sushi{
+  margin-top: 0%;
+  background-color: yellow;
+  border: solid 1px;
+  border-color: black;
+  float: right;
+  width: 30%;
+  text-align: center;
+  color: black;
+  font-weight: bold;
+
+}
+/* Simple Responsive Framework. */
+.row {
+
+  position: relative;
+  width: 100%;
+}
+.row h1{
+	
+	text-shadow: 2px 2px white;
+}
+
+/** 
+ * END BOX **/
+p{
+border-radius: 10px;
+margin-left: 15px;
+ clear: both;
+ overflow: auto;
+
+}
+
+#box a{
+
+  color: black;
+}
