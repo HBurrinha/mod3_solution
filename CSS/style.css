@@ -3,6 +3,9 @@ body{
 
 	background: #2F4F4F;
 }
+.container{
+  margin: 0;
+}
 hr{
   border-color: black;
   border: 1px solid black;
@@ -13,9 +16,7 @@ ul{
   float: top;
 }
 /** HEADER **/
-.container{
-  margin: 0;
-}
+
 .container h1{
   text-align: left;
   position: relative;
